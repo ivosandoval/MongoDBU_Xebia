@@ -104,3 +104,20 @@ WriteResult({ "nRemoved" : 1785 })
 ```
 
 # Aggregation (p49)
+Affiche les champs `_id`, `media`, `comments` et `diggs` des entrées ayant `People` en `topic name`
+```
+db.stories.aggregate([{"$match": {"topic.name" : "People"}}, {"$project" : {"media":1, "comments":1, "diggs": 1}}])
+```
+Affiche `lotz` ou `fewz` suivant si on a plus ou moins de 100 commentaires sur une story
+```
+db.stories.aggregate([{"$project" : { "x" : { "$cond" : [{ "$gt" : ["$comments" , 100]}, "lotz", "fewz"]}}}])
+```
+
+# Replica set (p25-30)
+Minimum number of servers in replica : 3
+
+Primary pour être consistent  
+Secondary read pour du logging  
+Primary read pour du temps reel
+
+Sur 3 replica, w=2 est raisonnable

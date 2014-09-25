@@ -1,15 +1,14 @@
-Cours donné par Alain Hélaïli chez Xebia sur Paris
+Cours donné par Alain Hélaïli chez Xebia sur Paris du 24 au 26/09/2014.
 
-[Day 1](Day_1/)
-1. [Introduction](Day_1/1_Introduction.md)
-2. [CRUD & Shell](Day_1/2_CRUD_Shell)
+# Sujets
+1. [Introduction](1_Introduction.md)
+2. [CRUD & Shell](2_CRUD_Shell.md)
+3. [Indexing & Design](3_Indexing_Design.md)
+4. [Replica set](4_Replicas.md)
+5. [Monitoring](5_Monitoring.md)
+6. [Tuning](6_Tuning.md)
+7. [Sharding](7_Sharding.md)
+8. [Backup](8_Backup.md)
+9. [Recovery](9_Recovery.md)
 
-Day 2
-1.
-2.
-3.
-
-Day 3
-1.
-2.
-3.
+# [Exercices](Exercises.md)
