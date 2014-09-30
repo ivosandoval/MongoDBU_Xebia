@@ -120,4 +120,7 @@ Primary pour être consistent
 Secondary read pour du logging  
 Primary read pour du temps reel
 
-Sur 3 replica, w=2 est raisonnable
+Sur 3 replica, writeConcern=2 est raisonnable
+
+# Sharding
+Configure a shard with 2 replica sets : [see script](Appendix/Shard.sh)

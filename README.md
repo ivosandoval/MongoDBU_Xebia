@@ -8,7 +8,7 @@ Cours donné par Alain Hélaïli chez Xebia sur Paris du 24 au 26/09/2014.
 5. [Monitoring](5_Monitoring.md)
 6. [Tuning](6_Tuning.md)
 7. [Sharding](7_Sharding.md)
-8. [Backup](8_Backup.md)
-9. [Recovery](9_Recovery.md)
+8. [Sécurité](8_Securite.md)
+9. [Backup](9_Backup.md)
 
 # [Exercices](Exercises.md)
